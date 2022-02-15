@@ -1,8 +1,8 @@
-import './componets/button/sugestionButton.scss'
+import './sugestionButton.scss'
 function Button(){
     return(
         <>
-        <button>Another Suggestion</button>
+        <button className="sugestbut">Another Suggestion</button>
         </>
     )
 }
