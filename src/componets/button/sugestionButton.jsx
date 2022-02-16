@@ -7,7 +7,7 @@ function Button(props) {
         <button className="sugestBtn" onClick={props.onClick}>Another Suggestion</button>
     )
 }
-Button.propTypes={
+Button.propTypes = {
     onClick: PropTypes.func.isRequired,
 }
 

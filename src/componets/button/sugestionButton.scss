@@ -1,8 +1,18 @@
+@import 'src/variables.scss';
+
+
 .sugestBtn {
+    
+    cursor: pointer;
     width: 348px;
     height: 64px;
-    background: #e54b4b;
-    border-radius: 10px;
-    border: rgb(248, 244, 193);
-    color:white;
+    background:$main-suggestion-button-color;
+    border-radius: $movise-detalis-corner-radius;
+    border:$movise-detalis-background-color;
+    color:$movise-detalis-background-color;
+    
+}
+
+.sugestBtn :hover{
+    color:rgb(219, 96, 96);
 }
