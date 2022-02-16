@@ -1,5 +1,5 @@
 import "./variables.scss"
-import Button from './componets/button/sugestionButton';
+import Button from './componets/button/suggestionButton';
 
 function App() {
   return (
