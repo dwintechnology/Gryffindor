@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Button from "./componets/button/sugestionButton"
+import Button from './componets/button/sugestionButton';
 
 function App() {
+
+  const handleClick = () => {
+    console.log("on click");
+  }
   return (
     <div className="App">
-     <Button />
+      <Button onClick={handleClick} />
     </div>
   );
 }
