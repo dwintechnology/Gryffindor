@@ -9,8 +9,10 @@ function Cont() {
     return (
         <div className="ContainerStyle" >
             <div>
-                <div className="Header">
+                <div className="Header"><div>
+
                     <img src="./logo.png" />
+                </div>
                     <div>
                         <div className="Links">
                             <Link to="/movies">Movies</Link>
