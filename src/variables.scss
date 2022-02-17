@@ -8,3 +8,35 @@ $main-actors-block-child-width: 40px;
 $main-actors-block-child-height: 30px;
 $main-suggestion-button-color: #e54b4b;
 $main-suggestion-button-text-color: rgb(255, 255, 255);
+
+
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #F3F3F3;
+  }
+  .ImgStyle{
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    left:-20px ;
+    top: 0%;
+    z-index: 0;
+  }
+  .ImgStyle1{
+  width: 611.57px;
+  height: 566.27px;
+  margin-left: 600px;
+  margin-top: 300px;
+  position: absolute;
+  z-index: 0;
+  }
+  .ImgStyle2{
+    position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 1600px;
+  top: 32px;
+  z-index: 0;
+  }
