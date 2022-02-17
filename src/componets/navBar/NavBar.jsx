@@ -7,30 +7,37 @@ import TvShows from '../tv-shows/Tv-shows';
 
 
 
-function NavBar(){
+function NavBar() {
     return (
         <div className="Header">
-            <div className='logoPng'>
-            <img  src={image}/>
-            </div>
-            <div>
-            <div>
-                        <div className="links">
-                            <Link to="/movies">Movies</Link>
-                            <Link style={{marginLeft:"10px"}} to="/tv_shows">Tv-shows</Link>
-                            <Link  style={{marginLeft:"10px"}}to="/">Home</Link>
-                        </div>
-                        <Routes >
-                            <Route path="/movies" element={<Movies />} />
-                            <Route path="/tv_shows" element={<TvShows />} />
-                        </Routes>
+            <div className="bigDiv">
+                <div className='logoPng'>
+                    <img src={image} />
+                </div>
+                <div className="links">
 
-                    </div>
+                    <Link to="/movies">Movies   </Link>
 
+                    <Link style={{ marginLeft: "10px" }} to="/tv_shows">Tv Shows</Link>
+
+                    <span>
+                    </span>
+                </div>
             </div>
+            <Routes >
+                <Route path="/movies" element={<Movies />} />
+
+                <Route path="/tv_shows" element={<TvShows />} />
+            </Routes>
+
+
+
+
+
+
 
         </div>
 
     )
-} 
- export default NavBar
+}
+export default NavBar

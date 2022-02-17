@@ -1,13 +1,15 @@
 .Header{
+    margin-bottom: 48px;
+    margin-top: 24px;
+}
+span{
+    width:54px;
+    height: 0px;
+    border: 2px solid #61BFAD;
+    display: block;
+    margin-top: 7px;
+}
+.bigDiv{
     display: flex;
     justify-content: space-between;
-    width: 300px;
-    height: 50px;
-  
-}
-.logoPng{
-    margin-left:-520px;
-}
-.links{
-    margin-right: -544px;
 }
