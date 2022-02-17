@@ -9,7 +9,8 @@ function MovieContainer() {
        
             <div className="ContainerStyle" >
         <div>
-        <NavBar/> <MovieWrapper/>
+        <NavBar/> 
+        <MovieWrapper/>
         </div>
         </div>
             
