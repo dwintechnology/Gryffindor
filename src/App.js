@@ -1,14 +1,3 @@
-
-import "./variables.scss";
-import MovieContainer from "./pages/movieContainer/MovieContainer";
-import imaga from './assets/img/Ellipse 5.svg';
-import imaga1 from './assets/img/Mask Group (1).png';
-import imaga2 from './assets/img/Mask Group (2).png';
-
-
-
-
-
 import "./App.scss";
 import MovieContainer from "./pages/movieContainer/MovieContainer";
 import imaga from './assets/img/Ellipse 5.svg';

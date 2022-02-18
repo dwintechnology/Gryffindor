@@ -1,5 +1,9 @@
 .movshow{
-    width: 300px;
-    height: 500px;
+    display: flex;
+    width: 100%;
+    border: 1px black solid;
     background-color: bisque;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 53px;
 }
