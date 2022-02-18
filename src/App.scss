@@ -1,0 +1,43 @@
+@import './variables.scss';
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .ImgStyle{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    z-index: 0;
+    max-width: 300px;
+  }
+  .ImgStyle1{
+  width: 30%;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 0;
+  }
+  .ImgStyle2{
+  position: absolute;
+  width: 5%;
+  height: auto;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  }
+  @media only screen and (max-width: 900px) {
+    .ImgStyle{
+        display: none;
+    }
+    .ImgStyle1{
+        display: none;
+    }
+    .ImgStyle2{
+        display: none;
+    }
+    
+  }
