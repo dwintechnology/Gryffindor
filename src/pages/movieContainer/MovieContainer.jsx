@@ -6,14 +6,14 @@ import NavBar from '../../componets/navBar/NavBar'
 
 function MovieContainer() {
     return (
-       
-            <div className="ContainerStyle" >
-        <div>
-        <NavBar/> <MovieWrapper/>
+
+        <div className="ContainerStyle" >
+            <div>
+                <NavBar /> <MovieWrapper />
+            </div>
         </div>
-        </div>
-            
-       
+
+
 
     )
 }

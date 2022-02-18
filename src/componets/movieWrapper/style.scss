@@ -1,11 +1,10 @@
-.movShow{
-    
-    width: 1200px;
-    height: 615px;
-    background-color: bisque;
-   
-    
+.movShow {
+  width: 1200px;
+  height: 615px;
+  background-color: bisque;
 }
-.picAndBtn{
-  margin-right: 90%;
+.picAndBtn {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
