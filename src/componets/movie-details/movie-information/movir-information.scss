@@ -1,4 +1,31 @@
-.movieInformation{
-    width: 90%;
-    height:30px;
+@import "../../../variables.scss";
+
+.movieInformation {
+  display: flex;
+  border: 1px solid black;
+  width: auto;
+  height: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: $font-femily;
+  div {
+    font-family: $font-femily;
+    padding: 6px 15px;
+    width: auto;
+    height: 20px;
+    border-radius: 10px;
+    background-color: $movise-detalis-background-color;
+  }
+  img {
+    width: 15px;
+    height: 15px;
+    padding-top: 2px;
+    padding-right: 6px;
+  }
+  .trailerPlay {
+    display: flex;
+    flex-direction: row-reverse;
+    color: #e54b4b;
+    font-weight: bold;
+  }
 }

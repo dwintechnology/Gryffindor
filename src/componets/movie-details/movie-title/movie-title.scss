@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
 .movieTitle{
     border: 2px black solid;
-    width: 90%;
-    height: 50px;
-
+    width: auto;
+    height: 75px;
+    font-family: 'Playfair Display', serif;;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 60px;
 }

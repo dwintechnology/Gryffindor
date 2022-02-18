@@ -1,0 +1,12 @@
+@import "../../../variables.scss";
+
+.movieWriter {
+  display: flex;
+  border: 2px black solid;
+  width: auto;
+  height: 80px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: $font-femily;
+}

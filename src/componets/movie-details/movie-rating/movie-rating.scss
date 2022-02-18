@@ -1,0 +1,21 @@
+.movieRating {
+  width: 140px;
+  height: 45px;
+  border: 1px black solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  h1 {
+    background-color: yellow;
+    border-radius: 22%;
+    width: auto;
+    height: 38px;
+    padding: 2px 11px;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  }
+  .rating{
+    font-family: inherit;
+    font-size: inherit;
+  }
+}
