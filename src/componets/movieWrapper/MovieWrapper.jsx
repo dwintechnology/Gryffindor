@@ -7,10 +7,11 @@ import './style.scss';
 
 
 function MovieWrapper() {
-    let [state, setState] = useState(0)
+    
+
     const handleClick = function () {
-        setState(state + 1)
-        console.log("on click")
+        
+        window.location.reload()
     }
 
     return (

@@ -1,14 +1,16 @@
-@import "src/variables.scss";
+@import "../../variables.scss";
+
 .suggestBtn {
     cursor: pointer;
     width: 348px;
     height: 64px;
     margin-top:3%;
-    background: $main-suggestion-button-color;
+    background-color:$main-suggestion-button-color;
     border-radius: $movise-detalis-corner-radius;
-    border: $movise-detalis-background-color;
+    border: 0px;
     color: $movise-detalis-background-color;
 }
-.suggestBtn :hover {
-    color:$main-suggest-btn-hover-color;
+.suggestBtn:hover {
+   background-color:rgb(112, 24, 24);
+
 }
