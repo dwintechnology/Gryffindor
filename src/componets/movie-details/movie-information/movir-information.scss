@@ -2,13 +2,13 @@
 
 .movieInformation {
   display: flex;
-  border: 1px solid black;
   width: auto;
   height: 40px;
   justify-content: flex-start;
   align-items: center;
   font-family: $font-femily;
   margin: 2%;
+  margin-left: 0%;
  
   div {
     margin-right: 3%;

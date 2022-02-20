@@ -2,10 +2,10 @@
 
 .movieWriter {
   display: flex;
-  border: 2px black solid;
   width: auto;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   font-family: $font-femily;
+  margin-top: 2%;
 }
