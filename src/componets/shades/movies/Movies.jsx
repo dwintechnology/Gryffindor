@@ -1,7 +1,8 @@
 
 
 import './Style.scss'
-function Movies(){
+function Movies({isTvShow}){
+    console.log(isTvShow)
     return <h1>
        
     </h1>

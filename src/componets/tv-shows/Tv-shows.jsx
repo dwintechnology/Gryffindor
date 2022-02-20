@@ -1,5 +1,6 @@
 
-function TvShows(){
+function TvShows({isTvShow}){
+    console.log(isTvShow)
     return <h1>
        
        
