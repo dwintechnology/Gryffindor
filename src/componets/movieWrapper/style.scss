@@ -1,9 +1,8 @@
 .movshow{
+    // width: 90%; \
     display: flex;
-    width: 100%;
-    border: 1px black solid;
-    background-color: bisque;
     flex-direction: row;
-    justify-content: flex-end;
-    margin-bottom: 53px;
+    border:2px black solid;   
+    background-color: bisque;
+    margin-bottom:5%;
 }

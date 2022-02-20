@@ -5,16 +5,22 @@
   border: 1px solid black;
   width: auto;
   height: 40px;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   font-family: $font-femily;
+  margin: 2%;
+ 
   div {
+    margin-right: 3%;
+    display: flex;
     font-family: $font-femily;
-    padding: 6px 15px;
+    padding:0% 2%;
     width: auto;
-    height: 20px;
+    height: 80%;
     border-radius: 10px;
     background-color: $movise-detalis-background-color;
+    align-items: center;
+    font-size: 90%;
   }
   img {
     width: 15px;

@@ -4,9 +4,8 @@
   display: flex;
   border: 2px black solid;
   width: auto;
-  height: 80px;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   font-family: $font-femily;
 }
