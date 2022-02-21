@@ -1,9 +1,8 @@
 @import './variables.scss';
 .App {
-    text-align: center;
     display: flex;
     justify-content: center;
-    background-color:$app-background-color
+    background-color:$app-background-color;
   }
   .ImgStyle{
     width: 30%;

@@ -1,0 +1,30 @@
+@import "src/variables.scss";
+.blueSpace {
+    display: flex;
+    justify-content: center;
+    background-color: $main-netflix-button-color;
+    width: 80%;
+    height: 10%;
+    border-radius: 0px 0px 10px 10px;
+}
+.netImg {
+    margin: 8px 24px;
+}
+.netText1 {
+    z-index: 1;
+    color: blanchedalmond;
+    width: 100%;
+    margin-top: 3%;
+    font-size: 90%;
+}
+.netText2 {
+    z-index: 1;
+    color: blanchedalmond;
+    width: 100%;
+    margin-top: 13%;
+    font-size: 90%;
+}
+.net {
+    width: 120px;
+    height: 20px;
+}

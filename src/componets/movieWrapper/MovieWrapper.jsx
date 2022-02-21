@@ -1,12 +1,26 @@
 import './style.scss'
  import MovieDetails from "../movie-details/movie-details"
-function MovieWrapper(){
-    return( 
-    <div className="movieshow">
-        <div style={{width:'30%',height:"30px",marginRight:'10%'}}>aaa</div>
-        <MovieDetails/>
-    </div>
+import MovieCover from '../moviecover/MovieCover';
+import SuggestBtn from '../suggestionbtn/SuggestionBtn';
+import NetflixButton from '../netflixButton/NetflixButton';
+
+function MovieWrapper() {
+
+    const handleClick = function () {
+        window.location.reload()
+    }
+
+    return (
+        <div className="movieshow">
+            <div className="picAndBtn">
+                <MovieCover />
+                <NetflixButton />
+                <SuggestBtn onClick={handleClick} />
+                
+            </div>
+            <MovieDetails/>
+        </div>
     )
 }
-export default MovieWrapper
+export default MovieWrapper;
 

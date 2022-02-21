@@ -3,6 +3,7 @@ function MovieOverview() {
 
     return (
         <div className="movieOverview">
+            <>
             Istanbul Police Department homicide detectives encounter
             a murder nothing like they’ve seen before.Commissioners Emin,
             Salih, Asuman and deputy Alaattin begin investigating.
@@ -16,6 +17,7 @@ function MovieOverview() {
             Emin and his friends try to solve the strangest series of
             murders with the most unusual methods.This fast race against
             time immediately turns into a tragicomedy.
+            </>
         </div>
     )
 }

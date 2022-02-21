@@ -1,5 +1,10 @@
 .movieshow{
     display: flex;
     flex-direction: row;  
-    margin-bottom:3%;
+}
+    
+.picAndBtn {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
 }
