@@ -6,19 +6,19 @@
   height: 40px;
   justify-content: flex-start;
   align-items: center;
-  font-family: $font-femily;
+  font-family: $font-family;
   margin: 2%;
   margin-left: 0%;
  
   div {
     margin-right: 3%;
     display: flex;
-    font-family: $font-femily;
+    font-family: $font-family;
     padding:0% 2%;
     width: auto;
     height: 80%;
     border-radius: 10px;
-    background-color: $movise-detalis-background-color;
+    background-color: $movie-details-background-color;
     align-items: center;
     font-size: 90%;
   }
