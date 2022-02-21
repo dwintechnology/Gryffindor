@@ -10,7 +10,6 @@ function MovieWrapper() {
     const handleClick = function () {
         window.location.reload()
     }
-
     return (
         <div className="movshow">
             <div className="picAndBtn">
