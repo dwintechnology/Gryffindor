@@ -14,11 +14,11 @@ function NavBar() {
                 <div className='logoPng'>
                     <img src={image} />
                 </div>
-                <div className="links">
+                <div >
 
-                    <Link to="/movies">Movies   </Link>
+                    <Link className="links" to="/movies">Movies   </Link>
 
-                    <Link style={{ marginLeft: "10px" }} to="/tv_shows">Tv Shows</Link>
+                    <Link  className="links" style={{ marginLeft: "10px" }} to="/tv_shows">Tv Shows</Link>
 
                     <span>
                     </span>

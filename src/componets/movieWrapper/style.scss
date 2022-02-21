@@ -1,7 +1,7 @@
-.movShow {
-  width: 1200px;
-  height: 615px;
-  background-color: bisque;
+.movshow{
+    display: flex;
+    flex-direction: row;   
+    background-color: bisque;
 }
 .picAndBtn {
   display: flex;

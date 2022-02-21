@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;500&display=swap');
 .Header{
-    margin-bottom: 48px;
+    margin-bottom: 20px;
     margin-top: 24px;
 }
 span{
@@ -7,9 +8,15 @@ span{
     height: 0px;
     border: 2px solid #61BFAD;
     display: block;
-    margin-top: 7px;
+    margin-top: 7px; 
 }
 .bigDiv{
     display: flex;
     justify-content: space-between;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-family: Inter;
+    line-height: 20px;
 }
