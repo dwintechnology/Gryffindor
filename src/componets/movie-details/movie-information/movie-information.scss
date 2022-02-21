@@ -1,0 +1,37 @@
+@import "../../../variables.scss";
+
+.movieInformation {
+  display: flex;
+  width: auto;
+  height: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: $font-femily;
+  margin: 2%;
+  margin-left: 0%;
+ 
+  div {
+    margin-right: 3%;
+    display: flex;
+    font-family: $font-femily;
+    padding:0% 2%;
+    width: auto;
+    height: 80%;
+    border-radius: 10px;
+    background-color: $movise-detalis-background-color;
+    align-items: center;
+    font-size: 90%;
+  }
+  img {
+    width: 15px;
+    height: 15px;
+    padding-top: 2px;
+    padding-right: 6px;
+  }
+  .trailerPlay {
+    display: flex;
+    flex-direction: row-reverse;
+    color: #e54b4b;
+    font-weight: bold;
+  }
+}

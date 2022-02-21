@@ -1,9 +1,8 @@
-
+import './style.scss'
+ import MovieDetails from "../movie-details/movie-details"
 import MovieCover from '../moviecover/MovieCover';
 import SuggestBtn from '../suggestionbtn/SuggestionBtn';
 import NetflixButton from '../netflixButton/NetflixButton';
-import './style.scss';
-
 
 function MovieWrapper() {
 
@@ -12,12 +11,14 @@ function MovieWrapper() {
     }
 
     return (
-        <div className="movshow">
+        <div className="movieshow">
             <div className="picAndBtn">
                 <MovieCover />
                 <NetflixButton />
                 <SuggestBtn onClick={handleClick} />
+                
             </div>
+            <MovieDetails/>
         </div>
     )
 }

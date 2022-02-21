@@ -2,13 +2,14 @@
 
 .suggestBtn {
     cursor: pointer;
-    width: 348px;
-    height: 64px;
-    margin-top:3%;
+    width: 80%;
+    height: 12%;
+    margin-top:9%;
     background-color:$main-suggestion-button-color;
     border-radius: $movise-detalis-corner-radius;
     border: 0px;
     color: $movise-detalis-background-color;
+    font-size: 95%;
 }
 .suggestBtn:hover {
    background-color:rgb(112, 24, 24);
