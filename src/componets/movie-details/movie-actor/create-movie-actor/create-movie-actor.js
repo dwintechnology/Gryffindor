@@ -1,5 +1,4 @@
 import "./create-movie-actor.scss"
-// import imgSrc from '../../../../assets/img/Ellipse1.svg'
 
 function CreateMovieActor(props) {
     const name = props.name
