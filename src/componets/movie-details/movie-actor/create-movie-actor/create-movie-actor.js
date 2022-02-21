@@ -1,11 +1,13 @@
 import "./create-movie-actor.scss"
-import imgSrc from '../../../../assets/img/Ellipse 1.svg'
+import imgSrc from '../../../../assets/img/Ellipse1.svg'
 
-function CreateMovieActor(){
+function CreateMovieActor(props){
+    const className=props.className
+
     return(
     <div className="actorBlock">
         <img src={imgSrc}/>
-        <h3>Nafghjhgfvghjhghme</h3>
+        <h3>{className}</h3>
         <h5>Film Name</h5>
     </div>
     )

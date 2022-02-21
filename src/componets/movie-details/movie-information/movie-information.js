@@ -1,4 +1,4 @@
- import "./movir-information.scss"
+ import "./movie-information.scss"
  import PlayerLogo from "../../../assets/img/PlayerLogo.png" 
 
  function MovieInformation (){

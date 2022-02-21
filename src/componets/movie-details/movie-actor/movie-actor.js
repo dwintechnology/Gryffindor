@@ -2,12 +2,13 @@ import CreateMovieActor from './create-movie-actor/create-movie-actor'
 import './movie-actor.scss'
 
 function MovieActor(){
+const a =["barev","hajox","vonch es"]
     return(
         <div className="movieActor">
-            <CreateMovieActor/>
-            <CreateMovieActor/>
-            <CreateMovieActor/>
-            <CreateMovieActor/>
+            {a.map((element,i) => {
+              return  <CreateMovieActor key={i} className={element}/>
+                
+            })};
 
         </div>
     )

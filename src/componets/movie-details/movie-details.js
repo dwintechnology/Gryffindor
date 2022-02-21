@@ -1,6 +1,6 @@
 import MovieActor from "./movie-actor/movie-actor"
 import "./movie-details.scss"
-import MovieInformation from "./movie-information/movir-information"
+import MovieInformation from "./movie-information/movie-information"
 import MovieOverview from "./movie-overview/movie-overview"
 import MovieRating from "./movie-rating/movie-rating"
 import MovieTitle from "./movie-title/movie-title"
