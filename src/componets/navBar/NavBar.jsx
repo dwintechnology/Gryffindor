@@ -18,7 +18,7 @@ function NavBar() {
         </div>
         <div>
           <Link
-            className={classNames({ links_ctive: !isActive, links: true })}
+            className={classNames({ links_active: !isActive, links: true })}
             onClick={() => {
               setIsActive(false);
             }}
@@ -28,7 +28,7 @@ function NavBar() {
           </Link>
 
           <Link
-            className={classNames({ links_ctive: isActive, links: true })}
+            className={classNames({ links_active: isActive, links: true })}
             onClick={() => {
               setIsActive(true);
             }}
