@@ -1,8 +1,10 @@
 @import './variables.scss';
 .App {
-    display: flex;
-    justify-content: center;
-    background-color:$app-background-color;
+  display: flex;
+  justify-content: center;
+  background-color: #E5E5E5;
+  min-width: 444px;
+  min-height: 100vh;
   }
   .ImgStyle{
     width: 30%;
