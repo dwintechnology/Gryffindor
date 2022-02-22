@@ -1,11 +1,11 @@
+import React from 'react';
 import image from '../../assets/img/movie-poster.png';
-import "./style.scss"
-function MovieCover() {
-    return (
-            <div className="moviepic">
-                <img src={image}  className = "img"/>
-            </div>
-    )
-}
+import './style.scss';
 
-export default MovieCover;
+export default function MovieCover() {
+  return (
+    <div className="moviepic">
+      <img src={image} alt="img" className="img" />
+    </div>
+  );
+}

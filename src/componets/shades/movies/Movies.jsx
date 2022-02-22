@@ -1,12 +1,17 @@
-
+import React from 'react';
 import './style.scss';
 import PropTypes from 'prop-types';
-function Movies({isTvShow}){
-    console.log(isTvShow)
-    return <h1>
-       
-    </h1>
+
+export default function Movies({ isTvShow }) {
+  console.log(isTvShow);
+  return (
+    <div />
+  );
 }
 Movies.propTypes = {
-    isTvShow: PropTypes.bool}
-export default Movies
+  isTvShow: PropTypes.bool,
+};
+
+Movies.defaultProps = {
+  isTvShow: false,
+};
