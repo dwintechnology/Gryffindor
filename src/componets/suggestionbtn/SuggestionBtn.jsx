@@ -1,16 +1,12 @@
-import './Style.scss'
+import './Style.scss';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-function SuggestBtn(props) {
-    
-    return (
-        <button className="suggestBtn" onClick={props.onClick}>Another Suggestion</button>
-    )
+export default function SuggestBtn({ onClick }) {
+  return (
+    <button className="suggestBtn" type="button" onClick={onClick}>Another Suggestion</button>
+  );
 }
-SuggestBtn.propTypes  =  {
-    onClick:PropTypes.func.isRequired,
-}
-export default SuggestBtn;
-
-
-
+SuggestBtn.propTypes = {
+  onClick: PropTypes.func.isRequired,
+};

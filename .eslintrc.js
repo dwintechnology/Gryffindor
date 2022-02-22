@@ -20,9 +20,8 @@ module.exports = {
   rules: {
     "indent": ["error", 2],
     "linebreak-style": 1,
-    "quotes": ["error", "double"],
+    "quotes": ["error", 'single'],
     "curly": "error",
-    "quotes": ["error", "double"],
-   
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
   },
 };

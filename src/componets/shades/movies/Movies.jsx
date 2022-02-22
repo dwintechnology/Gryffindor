@@ -1,9 +1,8 @@
+import './Style.scss';
+import React from 'react';
 
-
-import './Style.scss'
-function Movies(){
-    return <h1>
-       
-    </h1>
+export default function Movies() {
+  return (
+    <div />
+  );
 }
-export default Movies

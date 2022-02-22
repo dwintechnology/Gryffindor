@@ -1,8 +1,8 @@
+import React from 'react';
 
-function TvShows(){
-    return <h1>
-       
-       
-    </h1>
+export default function TvShows() {
+  return (
+    <>
+    </>
+  );
 }
-export default TvShows
