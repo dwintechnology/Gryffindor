@@ -6,7 +6,7 @@ import MovieOverview from './movie-overview/movie-overview';
 import MovieRating from './movie-rating/movie-rating';
 import MovieTitle from './movie-title/movie-title';
 import MovieWriter from './movie-writer/movie-writer';
-
+// aaaaaaa
 export default function MovieDetails() {
   return (
     <div className="movieDetails">
