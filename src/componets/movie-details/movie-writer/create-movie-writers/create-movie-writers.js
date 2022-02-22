@@ -1,6 +1,7 @@
 import './create-movie-writers.scss';
+import React from 'react';
 
-function CreateMovieWriters() {
+export default function CreateMovieWriters() {
   return (
     <div className="createMovieWriters">
       <h3>Anun Azganun</h3>
@@ -8,4 +9,3 @@ function CreateMovieWriters() {
     </div>
   );
 }
-export default CreateMovieWriters;

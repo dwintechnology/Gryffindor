@@ -1,6 +1,7 @@
+import React from 'react';
 import './movie-overview.scss';
 
-function MovieOverview() {
+export default function MovieOverview() {
   return (
     <div className="movieOverview">
       Istanbul Police Department homicide detectives encounter
@@ -19,4 +20,3 @@ function MovieOverview() {
     </div>
   );
 }
-export default MovieOverview;

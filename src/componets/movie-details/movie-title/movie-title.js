@@ -1,11 +1,10 @@
+import React from 'react';
 import './movie-title.scss';
 
-function MovieTitle() {
+export default function MovieTitle() {
   return (
     <div className="movieTitle">
-      You've Got Murder
+      You have Got Murder
     </div>
   );
 }
-
-export default MovieTitle;

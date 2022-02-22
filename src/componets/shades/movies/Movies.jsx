@@ -8,6 +8,7 @@ export default function Movies({ isTvShow }) {
     <div />
   );
 }
+
 Movies.propTypes = {
   isTvShow: PropTypes.bool,
 };

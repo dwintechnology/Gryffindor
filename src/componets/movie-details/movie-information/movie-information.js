@@ -1,7 +1,8 @@
+import React from 'react';
 import './movie-information.scss';
 import PlayerLogo from '../../../assets/img/PlayerLogo.png';
 
-function MovieInformation() {
+export default function MovieInformation() {
   return (
     <div className="movieInformation">
       <div className="movieReleaseDate">12/25/2255</div>
@@ -9,12 +10,10 @@ function MovieInformation() {
       <div className="movieTime">1h 29m</div>
       <div className="trailerPlay">
         Play Trailer
-        <img src={PlayerLogo} />
+        <img src={PlayerLogo} alt="img" />
 
       </div>
 
     </div>
   );
 }
-
-export default MovieInformation;
