@@ -36,3 +36,22 @@
   
  
 }
+.movieGenre{
+  min-width: 106px;
+}
+.movieTime{
+  min-width: 50px;
+}
+.trailerPlay{
+  min-width: 97px;
+}
+@media only screen and (max-width: 620px){
+  .movieInformation{
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    div{
+      margin-top: 5px;
+    }
+  }
+ 
+}

@@ -1,26 +1,23 @@
-import './style.scss'
- import MovieDetails from "../movie-details/movie-details"
+import React from 'react';
 import MovieCover from '../moviecover/MovieCover';
 import SuggestBtn from '../suggestionbtn/SuggestionBtn';
 import NetflixButton from '../netflixButton/NetflixButton';
+import MovieDetails from '../movie-details/movie-details';
+import './style.scss';
 
-function MovieWrapper() {
+export default function MovieWrapper() {
+  const handleClick = () => {
+    window.location.reload();
+  };
 
-    const handleClick = function () {
-        window.location.reload()
-    }
-
-    return (
-        <div className="movieshow">
-            <div className="picAndBtn">
-                <MovieCover />
-                <NetflixButton />
-                <SuggestBtn onClick={handleClick} />
-                
-            </div>
-            <MovieDetails/>
-        </div>
-    )
+  return (
+    <div className="movieshow">
+      <div className="picAndBtn">
+        <MovieCover />
+        <NetflixButton />
+        <SuggestBtn onClick={handleClick} />
+      </div>
+      <MovieDetails />
+    </div>
+  );
 }
-export default MovieWrapper;
-
