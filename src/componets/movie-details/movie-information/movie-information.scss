@@ -9,12 +9,12 @@
   font-family: $font-family;
   margin: 2%;
   margin-left: 0%;
- 
+
   div {
     margin-right: 3%;
     display: flex;
     font-family: $font-family;
-    padding:0% 2%;
+    padding: 0% 2%;
     width: auto;
     height: 80%;
     border-radius: 10px;
@@ -31,9 +31,10 @@
   .trailerPlay {
     display: flex;
     flex-direction: row-reverse;
-    color: #e54b4b;
-    font-weight: bold;
+   
   }
+  
+ 
 }
 .movieGenre{
   min-width: 106px;
