@@ -1,11 +1,13 @@
 .img{
-    min-width: 320px;
-    height: 100%;
+        min-width: 213px;
+    width: 100%;
+    height: auto;
+    margin-left: 10%;
 
 }
 .moviepic{
-    width: 80%;
-    height: 320px
+    width: 100%;
+
 }
 @media only screen and (max-width: 800px){
     .img{

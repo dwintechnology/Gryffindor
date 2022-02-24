@@ -31,27 +31,23 @@
   .trailerPlay {
     display: flex;
     flex-direction: row-reverse;
-   
   }
-  
- 
 }
-.movieGenre{
+.movieGenre {
   min-width: 106px;
 }
-.movieTime{
+.movieTime {
   min-width: 50px;
 }
-.trailerPlay{
+.trailerPlay {
   min-width: 97px;
 }
-@media only screen and (max-width: 620px){
-  .movieInformation{
+@media only screen and (max-width: 620px) {
+  .movieInformation {
     flex-wrap: wrap;
     margin-bottom: 40px;
-    div{
+    div {
       margin-top: 5px;
     }
   }
- 
 }

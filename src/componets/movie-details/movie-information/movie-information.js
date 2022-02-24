@@ -20,7 +20,7 @@ function MovieInformation() {
       <div className="movieTime">1h 29m</div>
       <div className="trailerPlay">
         <div>
-          <PopupModal videoId={vidId?.items[0].id.videoId} />
+          <PopupModal videoId={vidId?.items ? vidId?.items[0]?.id?.videoId : null} />
         </div>
       </div>
     </div>
