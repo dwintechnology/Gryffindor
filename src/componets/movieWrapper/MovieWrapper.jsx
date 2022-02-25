@@ -13,8 +13,10 @@ export default function MovieWrapper() {
   return (
     <div className="movieshow">
       <div className="picAndBtn">
-        <MovieCover />
-        <NetflixButton />
+        <div className="movibutton">
+          <MovieCover />
+          <NetflixButton />
+        </div>
         <SuggestBtn onClick={handleClick} />
       </div>
       <MovieDetails />
