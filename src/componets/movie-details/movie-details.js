@@ -33,9 +33,8 @@ export default function MovieDetails(props) {
   );
 
   const generArr = arrGener?.map((obj) => obj.text);
-  console.log('🚀 ~ file: movie-details.js ~ line 36 ~ MovieDetails ~ generArr', generArr);
+
   const joindArr = generArr?.join(',');
-  console.log('🚀 ~ file: movie-details.js ~ line 38 ~ MovieDetails ~ joindArr', joindArr);
 
   const actorArr = movieInfoArr?.people?.map((obj) => ({ name: obj?.name, role: obj?.role }));
 

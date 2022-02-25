@@ -1,0 +1,51 @@
+.trailerPlay1 {
+  color: #e54b4b;
+  font-weight: bold;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 103px;
+}
+
+.popup-content {
+  width: 800px !important;
+  height: 400px !important;
+  display: block !important;
+  top: 170px !important;
+  left: 430px !important;
+  align-items: center;
+}
+.popup-arrow {
+  display: none !important;
+}
+.close {
+  font-size: 25px !important;
+  margin-left: 704px !important;
+  cursor: pointer !important;
+  position: absolute;
+  left: 68px;
+  border-radius: 100%;
+  border: 2px solid orangered;
+  top: 0 !important;
+}
+.video {
+  width: 800px !important;
+  height: 400px !important;
+}
+@media only screen and (max-width: 1243px) {
+  .popup-content {
+    width: 500px !important;
+    height: 200px !important;
+    top: 80px !important;
+    left: 80px !important;
+  }
+
+}
