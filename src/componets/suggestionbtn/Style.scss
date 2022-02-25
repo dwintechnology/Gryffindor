@@ -1,0 +1,23 @@
+@import "../../variables.scss";
+
+.suggestBtn {
+    cursor: pointer;
+    width: 100%;
+    height: 70px;
+    margin-top:9%;
+    background-color:$main-suggestion-button-color;
+    border-radius: $movie-details-corner-radius;
+    border: 0px;
+    color: $movie-details-background-color;
+    font-size: 95%;
+    margin-left: 10%;
+    font-weight: 700;
+}
+.suggestBtn:hover {
+   background-color:rgb(112, 24, 24);
+
+}
+@media only screen and (max-width: 1109px ) {
+    .suggestBtn {
+        margin-left: 20%;
+    }}

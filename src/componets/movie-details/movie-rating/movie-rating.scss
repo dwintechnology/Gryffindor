@@ -1,0 +1,27 @@
+.movieRating {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  img {
+    margin: 0px;
+    width: auto;
+    height: 85%;
+    padding: 1% 0%;
+    padding-right: 6%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+  }
+  .rating{
+    margin: 0% 3%;
+    font-family: inherit;
+    font-size: inherit;
+  }
+}
+@media only screen and (max-width: 700px){
+  .movieRating{
+    width: 45%;    
+  }
+ 
+}

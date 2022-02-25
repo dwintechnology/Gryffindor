@@ -1,0 +1,48 @@
+@import "src/variables.scss";
+.blueSpace {
+    display: flex;
+    justify-content: center;
+    background-color: $main-netflix-button-color;
+    width: 100%;
+    height: 15%;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -1%;
+    margin-left: 10%;}
+  
+    @media only screen and (max-width: 1447px ) {
+        .blueSpace {
+            height: 17%;
+            margin-top: 0%;
+            
+        }
+}
+.netImg {
+    margin: 8px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+.netText1 {
+    z-index: 1;
+    color: blanchedalmond;
+    width: 100%;
+    margin-top: 6%;
+    font-size: 90%;
+    font-weight: 400;
+}
+.netText2 {
+    z-index: 1;
+    color: blanchedalmond;
+    width: 100%;
+    margin-top: -2%;
+    font-size: 90%;
+    font-weight: 500;
+}
+.net {
+    width: 120px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
