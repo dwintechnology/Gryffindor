@@ -3,14 +3,12 @@ import './movie-information.scss';
 import PropTypes from 'prop-types';
 import PlayerLogo from '../../../assets/img/PlayerLogo.png';
 
-export default function MovieInformation(props) {
-  const {
-    movieReleaseDate,
-    movieTime,
-    movieTitle,
-    movieGenre,
-  } = props;
-
+export default function MovieInformation({
+  movieReleaseDate,
+  movieTime,
+  movieTitle,
+  movieGenre,
+}) {
   console.log(movieTitle);
 
   let h;

@@ -18,22 +18,26 @@ export default function MovieDetails(props) {
     movieId,
   } = props;
 
-  const [movieGenre, setMovieGenre] = useState();
+  const [movieInfoArr, setMovieInfoArr] = useState();
 
   useEffect(() => {
     fetch(`https://api.reelgood.com/v3.0/content/movie/${movieId}?availability=onAnySource&interaction=true&region=us`)
       .then((arrId) => arrId.json())
       .then((objId) => {
-        setMovieGenre(objId);
-        console.log(objId);
+        setMovieInfoArr(objId);
       });
   }, [movieId]);
 
-  const arrGener = movieGenre?.score_breakdown?.content?.ranks?.filter(
+  const arrGener = movieInfoArr?.score_breakdown?.content?.ranks?.filter(
     (obj) => obj?.listing_key?.listing_type === 'genre',
   );
 
-  const GenerArr = arrGener?.map((obj) => obj.text);
+  const generArr = arrGener?.map((obj) => obj.text);
+  console.log('🚀 ~ file: movie-details.js ~ line 36 ~ MovieDetails ~ generArr', generArr);
+  const joindArr = generArr?.join(',');
+  console.log('🚀 ~ file: movie-details.js ~ line 38 ~ MovieDetails ~ joindArr', joindArr);
+
+  const actorArr = movieInfoArr?.people?.map((obj) => ({ name: obj?.name, role: obj?.role }));
 
   return (
     <div className="movieDetails">
@@ -42,11 +46,11 @@ export default function MovieDetails(props) {
         movieReleaseDate={movieReleaseDate}
         movieTime={movieTime}
         movieTitle={movieTitle}
-        movieGenre={GenerArr}
+        movieGenre={joindArr}
       />
       <MovieRating rating={rating} />
       <MovieOverview movieOverview={movieOverview} />
-      <MovieActor />
+      <MovieActor movieActor={actorArr} />
     </div>
   );
 }
