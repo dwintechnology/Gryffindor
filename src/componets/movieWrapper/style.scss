@@ -1,11 +1,12 @@
 .movieshow {
   display: flex;
+  margin-top: 1%;
   // flex-direction: column;}}
 }
 .picAndBtn {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 35%;
   max-width: 320px;
   min-width: 205px;
 }
